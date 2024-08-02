@@ -1,0 +1,34 @@
+name: car_configurator
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/Tesla.jpg
+    - assets/MG.jpg
+    - assets/R5.jpg
+    - assets/Van.jpg
+    - assets/Alpine.jpg
+    - assets/Fiat500.jpg
+    - assets/P3008.jpg
+    - assets/Jogger.jpg
